@@ -1,0 +1,295 @@
+body {
+    min-width: 320px;
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    right: 300px;
+    padding-bottom: 140px;
+    text-align: left;
+}
+
+
+
+.container-sm {
+    width: 70%;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.cfs {
+    font-size: 100%;
+}
+hr{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.image-1 {
+    width: 350px;
+    height: 350px;
+    border: none;
+    padding-top: 50px;
+
+}
+.image-2 {
+    width: 90px;
+    height: 30px;
+    border: none;
+
+}
+
+.container-ms {
+    width: 1170px;
+    height: 300px;
+    color: white;
+    padding-right: 30%;
+    padding-left: 20%;
+    padding-top: 40px;
+    display: flex;
+}
+
+
+
+.cvt {
+    color: white;
+    text-align: center;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    background-color: #6495ED;
+    height: 500px;
+}
+
+.btn-primary{
+
+    background-color: #FFD700;
+    color: black;
+    border-radius:0px;
+}
+
+.btn-primary:hover,
+
+.btn-primary:focus,
+
+.btn-primary:visited{
+	transition: margin-right 2s ease-in-out;
+    background-color: yellow;
+    color: black;
+
+}
+.carb{
+    border: none;
+}
+
+.bd {
+    background-color: #d0f4f7;
+    height: 500px;
+    width: 100%;
+}
+
+.clw{
+    width: 50%;
+}
+.container-se {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.form-horizontal {
+    padding-left: 10%;
+    padding-right: 10%;
+	
+}
+
+.bt {
+    width: 100%;
+}
+
+.fd {
+    height: 150px;
+    background: linear-gradient(to top, #430bdb 52%, #370da8 50%);
+    color:white
+}
+
+.container-footer {
+    padding-top: 4%;
+}
+
+.form-control{
+	border-radius:0px;
+}
+
+
+.dd {
+    background-color: lightblue;
+    height: 700px;
+    width: 100%;
+
+
+}
+
+
+.animate__animated{
+    animation-iteration-count: 5;
+}
+
+
+body {
+  animation: change-background 4s ease infinite;
+}
+1
+2
+3
+body {
+  animation: change-background 4s ease infinite;
+}
+   @keyframes change-background {
+      0% {
+        background: #69b7eb;
+      }
+      50% {
+        background: #b3dbd3;
+      }
+      100% {
+        background: #f4d6db;
+      }
+    }
+
+.creature { 
+    width:  200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darkorange;
+    position: relative;
+   }
+   .creature::before, .creature::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000;
+    top: 40px;
+    animation: eye 3s ease-in-out infinite;
+   }
+   .creature::before { left: 55px; }
+   .creature::after { right: 55px; }
+   @keyframes eye {
+    90% { transform: none; }
+    95% { transform: scaleY(0.1); }
+   }
+.box {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000FF;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover {
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.btn_1 {
+    width: 100px;
+}
+
+
+@media screen and (max-width:1200px)
+
+{
+
+    .container-ms{
+        width: 960px;
+    }
+
+}
+
+
+
+@media screen and (max-width:992px)
+
+{
+    .container-ms{
+        width: 720px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:768px)
+
+{
+
+    .container-ms {
+        width: 520px;
+
+    }
+    .col-2{
+        display: none;
+    }
+    .col-8{
+        width: 440px;
+    }
+    body{
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width:576px) {
+    .container-ms {
+        width: 100px;
+
+    }
+
+    body {
+        width: 100%;
+
+    }
+
+    .col-8 {
+        width: 280px;
+    }
+}
